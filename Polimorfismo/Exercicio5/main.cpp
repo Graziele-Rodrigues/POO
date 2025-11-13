@@ -11,7 +11,6 @@ public:
         vida = v;
     }
 
-    virtual ~Personagem() {};
     virtual void atacar(){
         std::cout << "Ataque padrao do personagem." << std::endl;
     }
@@ -90,7 +89,7 @@ int main() {
 
     std::cout << "Luta entre grupos:" << std::endl;
     std::cout << "--------------------------------" << std::endl;
-    
+
     while (true) {
         rodada++;
         std::cout << "\nRodada " << rodada << ":\n";

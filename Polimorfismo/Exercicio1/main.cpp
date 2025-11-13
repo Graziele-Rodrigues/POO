@@ -3,7 +3,6 @@
 
 class Mensagem {
 public:
-    virtual ~Mensagem() {};
     virtual void enviar(){
         std::cout << "Enviando mensagem padrao." << std::endl;
     }

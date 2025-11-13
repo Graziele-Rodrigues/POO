@@ -3,7 +3,6 @@
 
 class Mutante {
 public:
-    virtual ~Mutante() {};
     virtual void usarPoder(){
         std::cout << "Usando poder padrao." << std::endl;
     }
@@ -38,11 +37,6 @@ int main() {
     Mutante* equipe[] = { &wolv, &jean, &night };
 
     std::cout << "Iniciando batalha dos mutantes:\n";
-    for (Mutante* m : equipe) {
-        m->usarPoder();
-    }
-
-    std::cout << "\nSegunda rodada:\n";
     for (Mutante* m : equipe) {
         m->usarPoder();
     }

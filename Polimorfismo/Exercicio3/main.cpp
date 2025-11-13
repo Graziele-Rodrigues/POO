@@ -2,7 +2,6 @@
 
 class CriaturaMagica {
 public:
-    virtual ~CriaturaMagica() {};
     virtual void emitirSom(){
         std::cout << "Emitindo som padrao." << std::endl;
     }

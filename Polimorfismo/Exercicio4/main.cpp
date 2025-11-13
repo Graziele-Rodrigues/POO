@@ -2,7 +2,6 @@
 
 class Pagamento {
 public:
-    virtual ~Pagamento() {}
     virtual void processarPagamento() {
         std::cout << "Processando pagamento generico." << std::endl;
     }
