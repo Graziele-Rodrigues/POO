@@ -129,7 +129,7 @@ int main() {
                 break;
             case 5: {
                 int index;
-                std::cout << "Digite o índice do computador para aplicar desconto: ";
+                std::cout << "Digite o indice do computador para aplicar desconto: ";
                 std::cin >> index;
                 computadores[index].aplicarDesconto();
                 std::cout << "Desconto aplicado!\n";
@@ -137,7 +137,7 @@ int main() {
             }
             case 6: {
                 int index;
-                std::cout << "Digite o índice do smartphone para aplicar desconto: ";
+                std::cout << "Digite o indice do smartphone para aplicar desconto: ";
                 std::cin >> index;
                 smartphones[index].aplicarDesconto();
                 std::cout << "Desconto aplicado!\n";
